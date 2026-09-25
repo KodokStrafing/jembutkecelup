@@ -57,5 +57,6 @@ class AppColors {
   static const Color emerald = Color(0xFF10B981);
   static const Color emeraldSoft = Color(0xFF6EE7B7);
   static const Color coral = Color(0xFFFF6B6B);
+  static const Color chartLine = Color(0xFF34D399);
   static const Color warning = Color(0xFFFBBF24);
 }

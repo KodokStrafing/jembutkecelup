@@ -226,16 +226,16 @@ class _MoreScreenState extends ConsumerState<MoreScreen> {
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 13),
         child: Row(children: [
-  Icon(icon, color: iconColor, size: 20),
-  const SizedBox(width: 14),
-  Expanded(child: Text(title, style: AppTypography.bodyLarge)),
-  if (value != null) ...[
-    Text(value, style: AppTypography.bodyMedium),
-    const SizedBox(width: 4),
-  ],
-  ?toggle,
-  if (trailing) Icon(Icons.chevron_right, color: Colors.white.withValues(alpha: 0.3), size: 18),
-]),
+          Icon(icon, color: iconColor, size: 20),
+          const SizedBox(width: 14),
+          Expanded(child: Text(title, style: AppTypography.bodyLarge)),
+          if (value != null) ...[
+            Text(value!, style: AppTypography.bodyMedium),
+            const SizedBox(width: 4),
+          ],
+          if (toggle != null) toggle,
+          if (trailing) Icon(Icons.chevron_right, color: Colors.white.withValues(alpha: 0.3), size: 18),
+        ]),
       ),
     );
   }
