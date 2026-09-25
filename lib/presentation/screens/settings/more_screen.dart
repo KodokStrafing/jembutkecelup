@@ -230,7 +230,7 @@ class _MoreScreenState extends ConsumerState<MoreScreen> {
           const SizedBox(width: 14),
           Expanded(child: Text(title, style: AppTypography.bodyLarge)),
           if (value != null) ...[
-            Text(value!, style: AppTypography.bodyMedium),
+            Text(value, style: AppTypography.bodyMedium),
             const SizedBox(width: 4),
           ],
           if (toggle != null) toggle,
