@@ -4,9 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/constants/app_localizations.dart';
-import '../../../core/constants/liquid_glass.dart';
 import '../../providers/app_providers.dart';
-import 'glass_container.dart';
 
 /// Fixed, always-visible iOS-style tab bar.
 ///

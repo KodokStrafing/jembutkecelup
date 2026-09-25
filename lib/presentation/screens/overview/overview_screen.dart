@@ -99,12 +99,6 @@ class _OverviewScreenState extends ConsumerState<OverviewScreen> {
                         ),
                       ),
                       if (topCategory != null)
-                        OrbitalIcon(
-                          icon: iconForKey(topCategory.icon),
-                          size: 56,
-                          color: Color(topCategory.colorValue),
-                          animate: true,
-                        ),
                     ],
                   ),
                 ),
